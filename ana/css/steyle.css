@@ -1,0 +1,284 @@
+body {
+  background-color: #086ef4bd !important;
+  background-color: rgb(250, 248, 248); /* %50 şeffaf kırmızı */
+  background: linear-gradient(to bottom, rgba(247, 243, 243, 0.989), rgb(0, 0, 0));
+}
+
+
+#hakkimizda h2 {
+  color: #4182e3;
+
+}
+
+#İçeriklerimiz h2 {
+  color: #4182e3; /* Başlığın rengini kırmızı yapar */
+}
+
+#Kurslarımız h2 {
+  color: #4182e3; /* Başlığın rengini kırmızı yapar */
+}
+
+#iletisim h2 {
+  color: #4182e3; /* Başlığın rengini kırmızı yapar */
+}
+
+#kitaplar {
+  color: #4182e3; /* Başlığın rengini mor yapar */
+}
+
+#makine-ogrenme-yol-haritasi {
+  color: #4182e3;
+}
+
+#sss {
+  color: #4182e3 ; /* Başlığın rengini yeşil yapar */
+}
+  
+  
+  /* Form Styling */
+  .form-control {
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    background-color: #4182e3;
+    border-color: #4182e3;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4182e3;
+    border-color: #4182e3;
+  }
+
+  .video-description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #368dda; /* Slightly grayed-out text */
+  }
+
+  .youtube-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 500px;
+    box-shadow: 0 2px 5px rgba(216, 6, 6, 0.1);
+  }
+
+
+.background-video {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow */
+}
+
+.background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Send the video behind the content */
+    opacity: 0.7; /* Optional: Adjust opacity */
+    transform: translate(-50%, -50%); /* Center the video */
+}
+
+
+.navbar-logo {
+  background-color: #333; /* Navbar'ın arka plan rengini kullanın */
+  border-radius: 50%; /* Eğer logo yuvarlaksa, kenarları pürüzsüz hale getirir */
+}
+
+footer {
+  background-color: #4182e3;
+  color: #f3efef;
+  padding: 20px 0;
+  text-align: center; /* Metni ortala */
+}
+
+footer .container {
+  max-width: 960px; /* Genişliği sınırla (isteğe bağlı) */
+  margin: 0 auto; /* Sayfa ortasına yerleştir */
+}
+
+footer nav a {
+  color: #f1f0f0;
+  text-decoration: none;
+  margin: 0 10px; /* Bağlantılar arasında boşluk */
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+
+.navbar-brand span {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: transparent;
+  background-image: linear-gradient(90deg, #4182e3, #4182e3, #4182e3, #4182e3, #4182e3);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: fire-effect 3s infinite;
+  text-shadow: 
+    0 0 20px #4182e3, 
+    0 0 30px #4182e3, 
+    0 0 40px #4182e3, 
+    0 0 50px #4182e3, 
+    0 0 60px #4182e3, 
+    0 0 70px #4182e3;
+}
+
+@keyframes fire-effect {
+  0% {
+    background-position: 0% 50%;
+    text-shadow: 
+      0 0 10px #4182e3, 
+      0 0 20px #4182e3, 
+      0 0 30px #4182e3, 
+      0 0 40px #4182e3;
+    transform: scale(1);
+  }
+  50% {
+    background-position: 100% 50%;
+    text-shadow: 
+      0 0 30px #4182e3, 
+      0 0 40px #4182e3, 
+      0 0 50px #4182e3, 
+      0 0 60px #4182e3;
+    transform: scale(1.1);
+  }
+  100% {
+    background-position: 0% 50%;
+    text-shadow: 
+      0 0 20px #4182e3, 
+      0 0 30px #4182e3, 
+      0 0 40px #4182e3, 
+      0 0 50px #4182e3;
+    transform: scale(1);
+  }
+}
+
+.youtube-thumbnail {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.youtube-thumbnail:hover {
+  transform: scale(1.5) ;
+}
+
+.about-section {
+  background-color: #f2f2f2; /* Açık mavi tonları */
+  padding: 20px; /* Alan eklemek için */
+  border-radius: 10px; /* Köşeleri yuvarlatmak için */
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    border-radius: 8px; /* Görsel için kenar yuvarlama */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.centered-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Görsel kenar yuvarlama */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+.navbar-logo {
+  width: 50px; /* Logo boyutunu ayarlayın */
+  height: auto;
+  margin-right: 10px; /* Logo ile yazı arasındaki boşluk */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+h4 {
+  color: #f1f1f2;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #f5f6f7;
+  margin-bottom: 20px;
+}
+
+/* Tüm <p> etiketleri için metin rengini ayarlar */
+p {
+  color: #faf4f4; /* Koyu gri renk */
+}
+
+/* video-description sınıfına sahip <p> etiketleri için metin rengini ayarlar */
+p.video-description {
+  color: #f9f9f9; /* Mavi renk */
+}
+
+/* Tüm label etiketlerinin metin rengini ayarlar */
+label {
+  color: #f4f6f9; /* Mavi renk */
+}
+
+/* Belirli bir label için farklı renk ayarı */
+label[for="name"] {
+  color: #f2f6f3; /* Yeşil renk */
+}
+
+label[for="email"] {
+  color: #f3f2f2; /* Kırmızı renk */
+}
+
+label[for="message"] {
+  color: #f1f0ed; /* Sarı renk */
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Kapsayıcı yüksekliği: 100% viewport yüksekliği */
+  text-align: center; /* Metin içeriğini ortalar */
+  margin-top: 20px; /* Üstten boşluk */
+}
